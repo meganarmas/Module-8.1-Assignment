@@ -1,0 +1,57 @@
+body {
+    background-color: blanchedalmond;
+    font-size: 18px;
+}
+
+ol{
+    color: darkslategray;
+    border: 6px solid white;
+    background: lightblue;
+    box-sizing: border-box;
+    list-style-type: decimal;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+    list-style: 
+
+}
+
+h1{
+    color: lightslategray;
+    font-family: Cambria, cursive;
+    font-size: xx-large;
+}
+
+h2{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: auto;
+    height: 300px;
+}
+
+a{
+    color: darkorange;
+    text-decoration-color: rgb(206, 141, 112);
+}
+
+a:hover{
+    color: rgb(255, 43, 96);
+}
+
+footer{
+    font-size: smaller;
+    color: darkblue;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Submit Your Own Recipe</title>
+    <meta charset="UTF-8">
+    <met name = "viewpoint" content="width-device-width, initial-scale-1.0">
+        <link rel = "stylesheet" href = "button.css">
+</head>
+<body>
+    <h2>Submit Your Own Recipe</h2>
+    <p>To submit your own recipe, please enter it below!</p>
+
+    <form action ="/submit" method="post">
+        <fieldset>
+            <legend>Contact information</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="recipe-name">Recipe:</label>
+            <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter your recipe's name" required>
+        
+            <div></div>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" row="6" required></textarea>
+
+        <div></div>
+        <label for="steps">Steps:</label>
+        <textarea id ="steps" name="steps" row="6" required></textarea>
+
+        <button type="submit" class="submit-button">Submit</button>
+        </fieldset>
+
+    </form>
+    <p>Thanks! We look forward to reading your submission!</p>
+
+    
+    </form>
